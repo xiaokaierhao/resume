@@ -1,9 +1,9 @@
 module.exports = {
     themeConfig: {
+      logo: 'assets/img/mi.jpg',
       sidebar: [
-        '/',
-        '/page-a',
-        ['/page-b', 'Explicit link text']
+        '',
+        'about'
       ]
     }
   }
