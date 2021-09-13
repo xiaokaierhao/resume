@@ -4,6 +4,7 @@ module.exports = {
       sidebar: [
         '',
         'about'
-      ]
+      ],
+      lastUpdated: '更新时间',
     }
   }
