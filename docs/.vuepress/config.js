@@ -19,10 +19,10 @@ module.exports = {
   ],
   themeConfig: {
     logo: 'assets/img/mi.jpg',
-    sidebar: [
-      '',
-      'about'
-    ],
+    // sidebar: [
+    //   '',
+    //   '/about'
+    // ],
     lastUpdated: '更新时间',
     nav: [
       { text: '首页', link: '/' },
