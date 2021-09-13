@@ -1,6 +1,9 @@
 const moment = require('moment');
 
 module.exports = {
+  base: '/resume/',
+  title: '小锴的个人简历',
+  description: '小锴的个人简历',
   plugins: [
     [
       '@vuepress/last-updated',
@@ -8,7 +11,7 @@ module.exports = {
         transformer: (timestamp) => {
           // 不要忘了安装 moment
           const moment = require('moment')
-          moment.locale('zh-cn')
+          moment.locale('zh-CN')
           return moment(timestamp).format('LLLL')
         }
       }
@@ -16,7 +19,6 @@ module.exports = {
   ],
   themeConfig: {
     logo: 'assets/img/mi.jpg',
-    title: '小锴的个人简历',
     sidebar: [
       '',
       'about'
